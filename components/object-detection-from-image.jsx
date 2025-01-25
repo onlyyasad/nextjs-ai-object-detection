@@ -56,12 +56,12 @@ const ObjectDetectionFromImage = () => {
             ref={imageRef}
             src={imageUrl}
             alt="Uploaded"
-            className="rounded-md w-full lg:h-auto"
+            className="rounded-md w-full max-w-xl lg:h-auto"
             onLoad={runObjectDetection} // Run detection once the image loads
           />
           <canvas
             ref={canvasRef}
-            className="absolute top-0 left-0 z-99999 w-full lg:h-auto"
+            className="absolute top-0 left-0 z-99999 w-full max-w-xl lg:h-auto"
           />
         </div>
       )}
