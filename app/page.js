@@ -1,4 +1,5 @@
-import ObjectDetection from "@/components/object-detection";
+// import ObjectDetection from "@/components/object-detection";
+import ObjectDetectionFromImage from "@/components/object-detection-from-image";
 
 export default function Home() {
   return (
@@ -6,7 +7,8 @@ export default function Home() {
       <h1 className="gradient-title font-extrabold text-3xl md:text-6xl lg:text-8xl tracking-tighter md:px-6 text-center">
         Object Detection from Image
       </h1>
-      <ObjectDetection />
+      {/* <ObjectDetection /> */}
+      <ObjectDetectionFromImage/>
     </main>
   );
 }
